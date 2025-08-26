@@ -1,0 +1,13 @@
+[
+  {
+    "path": "/mnt/data/samples/sample.jpg",
+    "name": "sample.jpg",
+    "ext": "jpg",
+    "size_bytes": 2813,
+    "ctime": "2025-08-26T02:23:23",
+    "mtime": "2025-08-26T02:23:23",
+    "sha256": "003c0970af2e05c3e081004974655a8430c635a68da2e9cbf4966f2cde4b2bf0",
+    "is_image": true,
+    "exif": {}
+  }
+]

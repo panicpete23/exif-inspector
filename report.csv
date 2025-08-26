@@ -1,0 +1,2 @@
+ctime,ext,is_image,mtime,name,path,sha256,size_bytes
+2025-08-26T02:23:23,jpg,True,2025-08-26T02:23:23,sample.jpg,/mnt/data/samples/sample.jpg,003c0970af2e05c3e081004974655a8430c635a68da2e9cbf4966f2cde4b2bf0,2813
