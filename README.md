@@ -1,5 +1,9 @@
 # EXIF Inspector
 
+[![CI](https://github.com/panicpete23/exif-inspector/actions/workflows/ci.yml/badge.svg)](https://github.com/panicpete23/exif-inspector/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+
 A lightweight, **offline** EXIF and file metadata extractor written in Python. Ideal for blue-team triage, DFIR notes, or quick inventorying of image collections.
 
 ## Features
@@ -50,6 +54,23 @@ A simple, audit-friendly tool you can keep offline. Good for quick wins on your 
 MIT License © 2025 Justin Cox
 
 ---
+
+## Project Structure
+```
+exif-inspector/
+├── exif_inspector.py        # Main script
+├── requirements.txt         # Dependencies (Pillow)
+├── README.md                # Project overview + usage
+├── LICENSE                  # MIT license
+├── .gitignore               # Git ignore rules
+├── .github/
+│   └── workflows/
+│       └── ci.yml           # GitHub Actions workflow
+└── samples/
+    ├── sample.jpg           # Example image
+    ├── report.csv           # Example CSV output
+    └── report.json          # Example JSON output
+```
 
 ## Disclaimer  
 This is a **personal project** created for learning and community sharing.  
